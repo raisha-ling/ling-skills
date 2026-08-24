@@ -37,6 +37,16 @@
       "author": {
         "name": "Simon Bacher"
       }
+    },
+    {
+      "name": "meetings",
+      "displayName": "Meeting notes sync",
+      "source": "./plugins/meetings",
+      "description": "Append decisions and missing action items from Google Meet Gemini notes into the matching ClickUp meeting-notes page, for meetings you organize.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jarir Mallah"
+      }
     }
   ]
 }

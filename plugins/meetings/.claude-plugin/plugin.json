@@ -1,0 +1,17 @@
+{
+  "name": "meetings",
+  "displayName": "Meeting notes sync",
+  "description": "Append decisions and missing action items from Google Meet Gemini notes into the matching ClickUp meeting-notes page, for meetings you organize. Flags meetings that have notes but no ClickUp page.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jarir Mallah"
+  },
+  "keywords": [
+    "meetings",
+    "clickup",
+    "google-meet",
+    "notes",
+    "action-items",
+    "automation"
+  ]
+}
