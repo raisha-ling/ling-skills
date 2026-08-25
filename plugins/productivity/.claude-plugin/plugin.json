@@ -1,0 +1,15 @@
+{
+  "name": "productivity",
+  "displayName": "Productivity",
+  "description": "Prompts and processes for stress-testing your own thinking before you commit to it.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michael De Silva"
+  },
+  "keywords": [
+    "planning",
+    "decisions",
+    "interview",
+    "design-review"
+  ]
+}
