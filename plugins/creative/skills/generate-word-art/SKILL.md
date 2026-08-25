@@ -1,5 +1,5 @@
 ---
-name: generate-word-and-graphic
+name: generate-word-art
 description: Generate Ling-branded "word art" sticker PNGs — a word rendered in the Ling title lettering, optionally with a supporting illustration (the Ling mascot or a Word-Icon-style graphic), on a transparent background with a white sticker edge. For language-learning videos, thumbnails, and social graphics. One word ⇒ `generate`; a word LIST ⇒ `generate-batch` (ONE command, up to 20 in parallel). Needs an OpenAI API key; costs about $0.01 per image.
 ---
 

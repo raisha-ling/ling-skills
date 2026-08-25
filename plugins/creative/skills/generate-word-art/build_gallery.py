@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a visual style gallery (styles.html) for the generate-word-and-graphic skill.
+"""Build a visual style gallery (styles.html) for the generate-word-art skill.
 
 Scans Style/Text Style/* and Style/Illustration Style/*, reads each _style_brief.txt,
 and emits a single self-contained styles.html that maps each STYLE NUMBER to its

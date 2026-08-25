@@ -268,9 +268,7 @@ VAGUE_WORDS = {
 # to let new skills opt out.
 GRANDFATHERED = {
     "ling-design-system",
-    "generate-word-and-graphic",
     "user-feedback-categorizer",
-    "start-brain",
     "meeting-notes-sync",
 }
 
