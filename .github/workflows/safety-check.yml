@@ -22,6 +22,35 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Validate marketplace.json
+        # The marketplace file is hand-edited on every contribution, and a bad
+        # hand-merge shipped invalid JSON to main under a green scan (25 Aug 2026):
+        # every `claude plugin marketplace update` failed until it was repaired.
+        # The scanner checks skills; this checks the file that installs them.
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+          from pathlib import Path
+          p = Path(".claude-plugin/marketplace.json")
+          try:
+              d = json.loads(p.read_text())
+          except json.JSONDecodeError as e:
+              print(f"::error file={p}::invalid JSON, plugin installs will fail for everyone: {e}")
+              sys.exit(1)
+          bad = 0
+          for pl in d.get("plugins", []):
+              name = pl.get("name", "<unnamed>")
+              for field in ("name", "source", "version"):
+                  if not pl.get(field):
+                      print(f"::error file={p}::plugin '{name}' is missing '{field}'")
+                      bad += 1
+              src = pl.get("source", "")
+              if src and not Path(src).is_dir():
+                  print(f"::error file={p}::plugin '{name}' points at a folder that does not exist: {src}")
+                  bad += 1
+          sys.exit(1 if bad else 0)
+          EOF
+
       - name: Regression suite
         # Runs first. If the scanner itself is broken, its verdict on a submission
         # is worthless, and a scanner that silently stops catching things is the

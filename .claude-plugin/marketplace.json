@@ -77,6 +77,16 @@
       "author": {
         "name": "Minh"
       }
+    },
+    {
+      "name": "cs-tools",
+      "displayName": "CS tools",
+      "source": "./plugins/cs-tools",
+      "description": "Skills for Ling customer support: humanize a drafted reply so it reads like a person from the team wrote it.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Simon Bacher"
+      }
     }
   ]
 }
