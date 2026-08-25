@@ -39,6 +39,13 @@
       }
     },
     {
+      "name": "creative",
+      "displayName": "Word art generator",
+      "source": "./plugins/creative",
+      "description": "Generate Ling-branded word art sticker PNGs -- a word in the Ling title lettering, optionally with a mascot or Word-Icon graphic, on a transparent background. Needs an OpenAI API key; about $0.01 per image.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Zinc (Vasu Laeietpiboon)"
       "name": "meetings",
       "displayName": "Meeting notes sync",
       "source": "./plugins/meetings",
