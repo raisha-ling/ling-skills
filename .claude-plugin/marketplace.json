@@ -67,6 +67,16 @@
       "author": {
         "name": "Weslee Trout"
       }
+    },
+    {
+      "name": "research",
+      "displayName": "User interview prep",
+      "source": "./plugins/research",
+      "description": "Turn a user's email into a live-use interview dossier and a minute-by-minute script weighted to what makes that particular user worth the slot.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Minh"
+      }
     }
   ]
 }
