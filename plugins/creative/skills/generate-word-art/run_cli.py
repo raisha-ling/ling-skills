@@ -1,4 +1,4 @@
-"""Headless entry point for the generate-word-and-graphic skill.
+"""Headless entry point for the generate-word-art skill.
 
 `generate` is atomic (one PNG); `generate-batch` runs a whole word list from a
 jobs.json with up to 20 JOBS in parallel (jobs = different words; that cap is
