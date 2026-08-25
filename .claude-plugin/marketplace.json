@@ -46,6 +46,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Zinc (Vasu Laeietpiboon)"
+      }
+    },
+    {
       "name": "meetings",
       "displayName": "Meeting notes sync",
       "source": "./plugins/meetings",
