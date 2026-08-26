@@ -45,6 +45,12 @@ Skills from a plugin are namespaced, so the one above runs as `/getting-started:
 | `getting-started` | `setup-claude-memory` | draft-only | Turns an empty folder into a working Claude memory. Five questions, then it writes your `CLAUDE.md` and seeds a `memory/` folder. Start here if you are new. |
 | `feedback-tools` | `user-feedback-categorizer` | read-only | Turns a pile of reviews, survey answers or churn reasons into a ranked table of themes with owners and a top 3 to act on. |
 | `creative` | `generate-word-art` | can-send | Generates Ling-branded word art sticker PNGs: a word in the Ling title lettering, optionally with a mascot or Word-Icon graphic, on a transparent background. Needs an OpenAI API key; about $0.01 per image. |
+| `brand-design` | `ling-design-system` | draft-only | Applies Ling brand guidelines to any visual design or Canva output — social posts, posters, flyers, presentations, banners. Drafts only; a human reviews and publishes. |
+| `cs-tools` | `humanize-reply` | draft-only | Final-voice pass on a drafted customer-support reply so it reads like a person on the team wrote it. Style only — never changes facts, promises, or links. |
+| `meetings` | `meeting-notes-sync` | can-send | Syncs completed Google Meet meetings into their ClickUp meeting-notes page, appending decisions and action items nobody wrote down. Writes to ClickUp unattended, including on a schedule. |
+| `productivity` | `stress-test-plan` | read-only | Grills the user relentlessly about a plan, decision, or idea, mapped as a design tree, until reaching shared understanding. |
+| `research` | `user-interview-prep` | draft-only | Builds a dossier and a timed script for a specific user ahead of a scheduled interview, discovery call, or churn call. |
+| `seo-audit` | `seo-audit` | read-only | Full technical/on-page/content/schema SEO audit with dual AI-readiness and AI-visibility scores, delivered as a downloadable PDF report. |
 
 The library grows from the workshop, not from me pre-filling it.
 
