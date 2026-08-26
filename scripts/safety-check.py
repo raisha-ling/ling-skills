@@ -12,6 +12,10 @@ install, plugins are copied to a cache), and dangerous or too-machine-specific
 scripts (destructive commands, credential-store reads, exfiltration).
 """
 
+# Keeps `str | None`-style annotations working on Python 3.9, still the system
+# python3 on macOS. CI runs 3.10+, where this is a no-op.
+from __future__ import annotations
+
 import re
 import shutil
 import sys
