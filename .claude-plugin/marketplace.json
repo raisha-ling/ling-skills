@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ling-skills",
+  "description": "Ling's shared skill library. Skills are portable processes: build one, publish it here, let anyone fork it.",
+  "version": "0.1.0",
+  "owner": {
+    "name": "Ling leadership",
+    "email": "all@ling-app.com"
+  },
+  "plugins": [
+    {
+      "name": "getting-started",
+      "displayName": "Getting started",
+      "source": "./plugins/getting-started",
+      "description": "Turn an empty folder into a working Claude memory: a five-question interview, then a CLAUDE.md and a memory/ folder. No template, no PARA, nothing to maintain.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Simon Bacher"
+      }
+    },
+    {
+      "name": "feedback-tools",
+      "displayName": "User feedback categorizer",
+      "source": "./plugins/feedback-tools",
+      "description": "Turn a batch of raw user feedback into a frequency-weighted, prioritized list of themes with owners.",
+      "version": "1.0.1",
+      "author": {
+        "name": "Simon Bacher"
+      }
+    },
+    {
+      "name": "brand-design",
+      "displayName": "Ling design system",
+      "source": "./plugins/brand-design",
+      "description": "Apply Ling brand guidelines — colors, Poppins typography, mascot and illustration rules, scene templates — to any visual design or Canva output.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Simon Bacher"
+      }
+    },
+    {
+      "name": "creative",
+      "displayName": "Word art generator",
+      "source": "./plugins/creative",
+      "description": "Generate Ling-branded word art sticker PNGs -- a word in the Ling title lettering, optionally with a mascot or Word-Icon graphic, on a transparent background. Needs an OpenAI API key; about $0.01 per image.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Zinc (Vasu Laeietpiboon)"
+      }
+    },
+    {
+      "name": "meetings",
+      "displayName": "Meeting notes sync",
+      "source": "./plugins/meetings",
+      "description": "Append decisions and missing action items from Google Meet Gemini notes into the matching ClickUp meeting-notes page, for meetings you organize.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jarir Mallah"
+      }
+    },
+    {
+      "name": "seo-audit",
+      "displayName": "SEO audit",
+      "source": "./plugins/seo-audit",
+      "description": "Full SEO audit of any URL: technical, on-page, content quality, schema, and dual AI Readiness + AI Visibility scores, delivered as a print-ready PDF report artifact.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Weslee Trout"
+      }
+    },
+    {
+      "name": "research",
+      "displayName": "User interview prep",
+      "source": "./plugins/research",
+      "description": "Turn a user's email into a live-use interview dossier and a minute-by-minute script weighted to what makes that particular user worth the slot.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Minh"
+      }
+    },
+    {
+      "name": "cs-tools",
+      "displayName": "CS tools",
+      "source": "./plugins/cs-tools",
+      "description": "Skills for Ling customer support: humanize a drafted reply so it reads like a person from the team wrote it.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Simon Bacher"
+      }
+    },
+    {
+      "name": "productivity",
+      "displayName": "Productivity",
+      "source": "./plugins/productivity",
+      "description": "Prompts and processes for stress-testing your own thinking before you commit to it.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Michael De Silva"
+      }
+    },
+    {
+      "name": "course-content",
+      "displayName": "Course content production",
+      "source": "./plugins/course-content",
+      "description": "Skills for producing Ling course material from a unit spreadsheet: split and label lesson audio with a QA pass, and write beginner Grammar and Culture Notes grounded in the unit's own examples.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Masa"
+      }
+    },
+    {
+      "name": "diagnose-metric-change",
+      "displayName": "Diagnose metric change",
+      "source": "./plugins/diagnose-metric-change",
+      "description": "Explain why a product metric moved: pulls Amplitude, shows the trend, and breaks the change down by segment (channel, platform, country, language, plan) to say in plain English what moved the number and what to check.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Raisha"
+      }
+    }
+  ]
+}
