@@ -97,6 +97,16 @@
       "author": {
         "name": "Michael De Silva"
       }
+    },
+    {
+      "name": "course-content",
+      "displayName": "Course content production",
+      "source": "./plugins/course-content",
+      "description": "Skills for producing Ling course material from a unit spreadsheet: split and label lesson audio with a QA pass, and write beginner Grammar and Culture Notes grounded in the unit's own examples.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Masa"
+      }
     }
   ]
 }
