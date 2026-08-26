@@ -51,6 +51,8 @@ Skills from a plugin are namespaced, so the one above runs as `/getting-started:
 | `productivity` | `stress-test-plan` | read-only | Grills the user relentlessly about a plan, decision, or idea, mapped as a design tree, until reaching shared understanding. |
 | `research` | `user-interview-prep` | draft-only | Builds a dossier and a timed script for a specific user ahead of a scheduled interview, discovery call, or churn call. |
 | `seo-audit` | `seo-audit` | read-only | Full technical/on-page/content/schema SEO audit with dual AI-readiness and AI-visibility scores, delivered as a downloadable PDF report. |
+| `course-content` | `export-labeled-audio-clips` | draft-only | Splits one long recording into individually labeled MP3s using the spreadsheet's Sound IDs, reconciling segment count against expected rows before labeling, and ships a text-vs-audio QA report alongside the ZIP. |
+| `course-content` | `write-grammar-culture-notes` | draft-only | Reads a language-course unit and writes one beginner Grammar Note and one Culture Note, with every example taken from that unit's own rows. |
 
 The library grows from the workshop, not from me pre-filling it.
 
